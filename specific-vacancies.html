@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="img/favico.svg" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css">
+	<link rel="stylesheet" href="css/style.min.css" />
+	<title>specific-vacancies</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="bg-noise-holder" style="background-image: url('img/noise.png');">
+		</div>
+		<!-- Header section -->
+<header class="header">
+	<div class="header__container container">
+		<div class="header__row">
+			<div class="header__burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="header__column">
+				<a href="index.html" class="header__logo-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/logo-black.svg" type="image/webp">
+						<img src="img/logo-header-mob.svg" width="185" height="44" alt="icon">
+					</picture>
+				</a>
+				<div class="header__lang lang">
+					<div class="lang__current _icon-arrow-down">
+						UA
+					</div>
+					<div class="lang__text-holder">
+						<a href="#" class="active">
+							<img src="img/ua.svg" width="20" height="14" alt="icon">
+							УКРАЇНСЬКА
+						</a>
+						<a href="#">
+							<img src="img/usa.svg" width="20" height="14" alt="icon">
+							ENGLISH
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__column">
+				<nav class="header__menu">
+					<div class="header__menu-wrapper">
+						<div class="accordion">
+							<div class="accordion__wrapper">
+								<button class="accordion__btn trigger-accordion-js _icon-arrow-down">
+									Бухгалтерські послуги
+								</button>
+								<div class="accordion__text-holder">
+									<ul>
+										<li><a href="https://www.google.com/">Бухгалтерія для ТОВ</a></li>
+										<li><a href="#">Бухгалтерія для ФОП</a></li>
+										<li><a href="#">Бухгалтерія для кафе та ресторанів</a></li>
+										<li><a href="#">Кадровий облік</a></li>
+										<li><a href="#">Подання звітності ФОП</a></li>
+										<li><a href="#">Відновлення обліку </a></li>
+										<li><a href="#">Консультації</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="accordion__wrapper">
+								<button class="accordion__btn trigger-accordion-js _icon-arrow-down">
+									Юридичні послуги
+								</button>
+								<div class="accordion__text-holder">
+									<ul>
+										<li><a href="#">Реєстрація ТОВ/ФОП </a></li>
+										<li><a href="#">Внесення/зміна КВЕД</a></li>
+										<li><a href="#">Розробка договорів </a></li>
+										<li><a href="#">Адміністративне оскарження</a></li>
+										<li><a href="#">Претензійно-позивна робота</a></li>
+										<li><a href="#">Юридична консультація </a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="accordion__wrapper">
+								<button class="accordion__btn trigger-accordion-js _icon-arrow-down">
+									Консалтингові послуги
+								</button>
+								<div class="accordion__text-holder">
+									<ul>
+										<li><a href="#">Податкове планування</a></li>
+										<li><a href="#">Постановка та ведення управлінського обліку </a></li>
+										<li><a href="#">Супровід податкових перевірок </a></li>
+										<li><a href="#">Автоматизація бізнес процесів</a></li>
+										<li><a href="#">Послуга фінансового менеджера</a></li>
+										<li><a href="#">Фінансовий директор на аутсорсі</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<ul id="menu-main-menu" class="menu sf-menu">
+							<li class="menu-item menu-item-submenu">
+								<a href="services.html" class="_icon-arrow-down">Послуги
+								</a>
+							</li>
+							<li class="menu-item">
+								<a class="header__link" href="about.html">Про нас</a>
+							</li>
+
+							<li class="menu-item">
+								<a class="header__link" href="cases.html">Кейси</a>
+							</li>
+
+							<li class="menu-item">
+								<a class="header__link" href="news.html">Новини та статті</a>
+							</li>
+
+							<li class="menu-item">
+								<a class="header__link" href="contacts.html">Контакти</a>
+							</li>
+						</ul>
+						<div class="header__lang lang">
+							<span>Сайт іншими мовами</span>
+							<div class="lang__text-holder">
+								<a href="#" class="active">
+									<img src="img/ua.svg" width="20" height="14" alt="icon">
+									УКРАЇНСЬКА
+								</a>
+								<a href="#">
+									<img src="img/usa.svg" width="20" height="14" alt="icon">
+									ENGLISH
+								</a>
+							</div>
+						</div>
+						<div class="header__address address">
+							<h5>АДРЕСА</h5>
+							<div class="address__content">
+								<span>м. Київ</span>
+								<p>вул. Дегтярівська, будинок. 53а, офіс 419-420</p>
+								<a class="links" href="#">Дивитися на Google Maps</a>
+							</div>
+						</div>
+						<div class="header__social social">
+							<h5>ЗВ'ЯЗОК З НАМИ</h5>
+							<a class="phone" href="tel:+380504749294">+38 (050) 474-92-94</a>
+							<a class="email" href="mailto:нужна_пошта@сюди.com">нужна_пошта@сюди.com</a>
+							<a class="btn-full scroll-to" href="#section-cta">КОНСУЛЬТАЦІЯ</a>
+						</div>
+					</div>
+				</nav>
+				<div class="overlay"></div>
+			</div>
+			<div class="header__column">
+				<div class="phone-box">
+					<a href="tel:+380504749294">+38 (050) 474-92-94</a>
+					<a class="btn-full scroll-to" href="#section-cta">
+						<span class="_icon-phone-input">
+						</span>
+						Консультація
+					</a>
+					<a class="btn-full btn-modal-consultation">
+						<span class="phone-icon _icon-phone-input">
+						</span>
+						<span class="close-icon ">
+							<img src="img/close.svg" width="20" height="20" alt="icon">
+						</span>
+						Консультація
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="submenu">
+		<div class="submenu__container container">
+			<div class="submenu__column">
+				<ul class="menu submenu__list">
+					<li class="menu-item menu-item--category"><a href="#">
+							Бухгалтерські послуги
+							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.5 2.32812C8.08154 2.32812 6.69493 2.74875 5.51552 3.5368C4.33611 4.32486 3.41688 5.44495 2.87405 6.75544C2.33123 8.06593 2.18921 9.50796 2.46593 10.8992C2.74266 12.2904 3.42572 13.5683 4.42872 14.5713C5.43173 15.5743 6.70963 16.2573 8.10084 16.5341C9.49205 16.8108 10.9341 16.6688 12.2446 16.126C13.555 15.5831 14.6751 14.6639 15.4632 13.4845C16.2513 12.3051 16.6719 10.9185 16.6719 9.5C16.6696 7.59859 15.9133 5.77569 14.5688 4.43119C13.2243 3.08668 11.4014 2.33036 9.5 2.32812ZM9.5 15.8281C8.24842 15.8281 7.02494 15.457 5.98429 14.7616C4.94363 14.0663 4.13254 13.078 3.65358 11.9217C3.17462 10.7654 3.0493 9.49298 3.29347 8.26544C3.53764 7.03791 4.14034 5.91034 5.02534 5.02534C5.91035 4.14034 7.03791 3.53764 8.26545 3.29347C9.49298 3.0493 10.7654 3.17461 11.9217 3.65357C13.078 4.13254 14.0663 4.94363 14.7616 5.98428C15.457 7.02494 15.8281 8.24842 15.8281 9.5C15.8263 11.1778 15.159 12.7863 13.9726 13.9726C12.7863 15.159 11.1778 15.8263 9.5 15.8281ZM11.4856 9.20188C11.5646 9.28098 11.609 9.3882 11.609 9.5C11.609 9.6118 11.5646 9.71902 11.4856 9.79813L8.67313 12.6106C8.59315 12.6851 8.48738 12.7257 8.37808 12.7238C8.26879 12.7219 8.16451 12.6776 8.08722 12.6003C8.00992 12.523 7.96565 12.4187 7.96372 12.3094C7.96179 12.2001 8.00236 12.0943 8.07688 12.0144L10.5905 9.5L8.07688 6.98563C8.00236 6.90565 7.96179 6.79988 7.96372 6.69058C7.96565 6.58129 8.00992 6.47701 8.08722 6.39971C8.16451 6.32242 8.26879 6.27814 8.37808 6.27621C8.48738 6.27429 8.59315 6.31486 8.67313 6.38938L11.4856 9.20188Z"
+									fill="#39393A" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu-item"><a href="#">Бухгалтерія для ТОВ </a></li>
+					<li class="menu-item"><a href="#">Бухгалтерія для ФОП</a></li>
+					<li class="menu-item"><a href="#">Бухгалтерія для кафе та ресторанів</a></li>
+					<li class="menu-item"><a href="#">Кадровий облік</a></li>
+					<li class="menu-item"><a href="#">Подання звітності ФОП</a></li>
+					<li class="menu-item"><a href="#">Відновлення обліку</a></li>
+					<li class="menu-item"><a href="#">Консультації </a></li>
+				</ul>
+			</div>
+			<div class="submenu__column">
+				<ul class="menu submenu__list">
+					<li class="menu-item menu-item--category"><a href="#">
+							Юридичні послуги
+							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.5 2.32812C8.08154 2.32812 6.69493 2.74875 5.51552 3.5368C4.33611 4.32486 3.41688 5.44495 2.87405 6.75544C2.33123 8.06593 2.18921 9.50796 2.46593 10.8992C2.74266 12.2904 3.42572 13.5683 4.42872 14.5713C5.43173 15.5743 6.70963 16.2573 8.10084 16.5341C9.49205 16.8108 10.9341 16.6688 12.2446 16.126C13.555 15.5831 14.6751 14.6639 15.4632 13.4845C16.2513 12.3051 16.6719 10.9185 16.6719 9.5C16.6696 7.59859 15.9133 5.77569 14.5688 4.43119C13.2243 3.08668 11.4014 2.33036 9.5 2.32812ZM9.5 15.8281C8.24842 15.8281 7.02494 15.457 5.98429 14.7616C4.94363 14.0663 4.13254 13.078 3.65358 11.9217C3.17462 10.7654 3.0493 9.49298 3.29347 8.26544C3.53764 7.03791 4.14034 5.91034 5.02534 5.02534C5.91035 4.14034 7.03791 3.53764 8.26545 3.29347C9.49298 3.0493 10.7654 3.17461 11.9217 3.65357C13.078 4.13254 14.0663 4.94363 14.7616 5.98428C15.457 7.02494 15.8281 8.24842 15.8281 9.5C15.8263 11.1778 15.159 12.7863 13.9726 13.9726C12.7863 15.159 11.1778 15.8263 9.5 15.8281ZM11.4856 9.20188C11.5646 9.28098 11.609 9.3882 11.609 9.5C11.609 9.6118 11.5646 9.71902 11.4856 9.79813L8.67313 12.6106C8.59315 12.6851 8.48738 12.7257 8.37808 12.7238C8.26879 12.7219 8.16451 12.6776 8.08722 12.6003C8.00992 12.523 7.96565 12.4187 7.96372 12.3094C7.96179 12.2001 8.00236 12.0943 8.07688 12.0144L10.5905 9.5L8.07688 6.98563C8.00236 6.90565 7.96179 6.79988 7.96372 6.69058C7.96565 6.58129 8.00992 6.47701 8.08722 6.39971C8.16451 6.32242 8.26879 6.27814 8.37808 6.27621C8.48738 6.27429 8.59315 6.31486 8.67313 6.38938L11.4856 9.20188Z"
+									fill="#39393A" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu-item"><a href="#">Реєстрація ТОВ/ФОП</a></li>
+					<li class="menu-item"><a href="#">Внесення/зміна КВЕД</a></li>
+					<li class="menu-item"><a href="#">Розробка договорів</a></li>
+					<li class="menu-item"><a href="#">Адміністративне оскарження </a></li>
+					<li class="menu-item"><a href="#">Претензійно-позивна робота</a></li>
+					<li class="menu-item"><a href="#">Юридична консультація </a></li>
+				</ul>
+			</div>
+			<div class="submenu__column">
+				<ul class="menu submenu__list">
+					<li class="menu-item menu-item--category">
+						<a href="#">
+							Консалтингові послуги
+							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.5 2.32812C8.08154 2.32812 6.69493 2.74875 5.51552 3.5368C4.33611 4.32486 3.41688 5.44495 2.87405 6.75544C2.33123 8.06593 2.18921 9.50796 2.46593 10.8992C2.74266 12.2904 3.42572 13.5683 4.42872 14.5713C5.43173 15.5743 6.70963 16.2573 8.10084 16.5341C9.49205 16.8108 10.9341 16.6688 12.2446 16.126C13.555 15.5831 14.6751 14.6639 15.4632 13.4845C16.2513 12.3051 16.6719 10.9185 16.6719 9.5C16.6696 7.59859 15.9133 5.77569 14.5688 4.43119C13.2243 3.08668 11.4014 2.33036 9.5 2.32812ZM9.5 15.8281C8.24842 15.8281 7.02494 15.457 5.98429 14.7616C4.94363 14.0663 4.13254 13.078 3.65358 11.9217C3.17462 10.7654 3.0493 9.49298 3.29347 8.26544C3.53764 7.03791 4.14034 5.91034 5.02534 5.02534C5.91035 4.14034 7.03791 3.53764 8.26545 3.29347C9.49298 3.0493 10.7654 3.17461 11.9217 3.65357C13.078 4.13254 14.0663 4.94363 14.7616 5.98428C15.457 7.02494 15.8281 8.24842 15.8281 9.5C15.8263 11.1778 15.159 12.7863 13.9726 13.9726C12.7863 15.159 11.1778 15.8263 9.5 15.8281ZM11.4856 9.20188C11.5646 9.28098 11.609 9.3882 11.609 9.5C11.609 9.6118 11.5646 9.71902 11.4856 9.79813L8.67313 12.6106C8.59315 12.6851 8.48738 12.7257 8.37808 12.7238C8.26879 12.7219 8.16451 12.6776 8.08722 12.6003C8.00992 12.523 7.96565 12.4187 7.96372 12.3094C7.96179 12.2001 8.00236 12.0943 8.07688 12.0144L10.5905 9.5L8.07688 6.98563C8.00236 6.90565 7.96179 6.79988 7.96372 6.69058C7.96565 6.58129 8.00992 6.47701 8.08722 6.39971C8.16451 6.32242 8.26879 6.27814 8.37808 6.27621C8.48738 6.27429 8.59315 6.31486 8.67313 6.38938L11.4856 9.20188Z"
+									fill="#39393A" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu-item"><a href="#">Податкове планування</a></li>
+					<li class="menu-item"><a href="#">Постановка та ведення управлінського обліку </a></li>
+					<li class="menu-item"><a href="#">Супровід податкових перевірок </a></li>
+					<li class="menu-item"><a href="#">Автоматизація бізнес процесів</a></li>
+					<li class="menu-item"><a href="#">Послуга фінансового менеджера</a></li>
+					<li class="menu-item"><a href="#">Фінансовий директор на аутсорсі</a></li>
+				</ul>
+			</div>
+			<div class="submenu__column">
+				<div class="promo">
+					<div class="promo__inner">
+						<div class="promo__image-holder">
+							<picture>
+								<source media="(min-width:1280px)" srcset="img/promo-header-img.webp" type="image/webp">
+								<img src="img/promo-img-mob.png" width="139" height="276" alt="image">
+							</picture>
+						</div>
+
+						<div class="promo__decor-holder">
+							<picture><source srcset="img/promo-header-decor.webp" type="image/webp"><img src="img/promo-header-decor.png" width="250" height="250" alt="image"></picture>
+						</div>
+						<div class="promo__content">
+							<h3>Комплексний
+								бухгалтерський супровід</h3>
+							<a class="btn-full _icon-arrow-right" data-fancybox data-src="#quiz" href="javascript:;">
+								РОЗПОЧАТИ ЗАРАЗ
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="content">
+
+			<!-- Breadcrumbs section -->
+			<section class="breadcrumbs">
+				<div class="breadcrumbs__container container">
+					<div id="breadcrumbs__list" class="breadcrumbs__list">
+						<span>
+							<span>
+								<a class="links _icon-home" href="index.html">
+
+									Головна
+								</a>
+							</span>
+							<span class="brDevider _icon-arrow-right">
+							</span>
+							<span class="breadcrumbs__last" aria-current="page">Вакансії
+							</span>
+						</span>
+					</div>
+				</div>
+			</section>
+
+			<!-- Jumbotron section -->
+			<section class="jumbotron jumbotron--column" id="section-jumbotron">
+				<div class="bg-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/square-bg.webp" type="image/webp">
+						<source srcset="img/square-bg-mob.webp" type="image/webp">
+						<img src="img/square-bg-mob.png" width="1920" height="744" alt="image">
+					</picture>
+				</div>
+				<div class="jumbotron__container container">
+					<h2 class="jumbotron__title title">Юрист-консульт в юридичний відділ</h2>
+					<div class="badge-box badge-box--row">
+						<div class="badge-box__item">м.Київ</div>
+						<div class="badge-box__item">Робота в офісі / Full Time</div>
+						<div class="badge-box__item">від 20 000 грн</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="specific-vacancies">
+				<div class="specific-vacancies__container container">
+					<div class="specific-vacancies__left-col">
+						<div class="specific-vacancies__image-holder">
+							<picture><source srcset="img/specific-vacancies-img-01.webp" type="image/webp"><img src="img/specific-vacancies-img-01.jpg" width="676" height="376" alt="image"></picture>
+						</div>
+						<div class="specific-vacancies__text-holder">
+							<p>Ми є успішною юридичною консалтинговою компанією, що спеціалізується на наданні високоякісних
+								юридичних послуг клієнтам у різних сферах. Наша команда складається з досвідчених професіоналів,
+								готових підтримувати наших клієнтів у їхніх юридичних питаннях та допомагати їм досягати успіху.
+							</p>
+							<h4>Обов'язки:</h4>
+							<ul>
+								<li>Надання юридичної консультації клієнтам та надання професійних рекомендацій.</li>
+								<li>Підготовка документів, включаючи договори, угоди та інші юридичні документи.</li>
+								<li>Участь у юридичному аналізі та дослідженнях.</li>
+								<li>Подання інтересів клієнтів у суді (за потреби).</li>
+								<li>Дотримання актуальних юридичних стандартів та законодавства.</li>
+							</ul>
+							<h4>Вимоги:</h4>
+							<ul>
+								<li>Вища юридична освіта та активне членство в адвокатській палаті (за бажанням).</li>
+								<li>Досвід роботи в юридичній сфері від [зазначити число] років.</li>
+								<li>Знання юридичної практики та судових процедур.</li>
+								<li>Відмінні аналітичні та комунікативні навички.</li>
+								<li>Відповідальність, старанність та прагнення до досягнення результатів.</li>
+							</ul>
+							<h4>Ми пропонуємо:</h4>
+							<ul>
+								<li>Конкурентоспроможну заробітну плату та бонуси.</li>
+								<li>Можливості для професійного зростання та розвитку.</li>
+								<li>Роботу у дружній та професійній команді.</li>
+								<li>Цікаві та складні проекти у співпраці з різноманітними клієнтами.</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="specific-vacancies__right-col">
+						<div class="card cta-card">
+							<div class="card__inner">
+								<div class="cta-form-holder">
+									<h4>ВІДГУКНУТИСЯ ЗАРАЗ</h4>
+									<p>Залишіть свій телефон та резюме і ми зв'яжемося з вами та обговоримо всі деталі співпраці!
+									</p>
+									<div id="note"></div>
+									<form class="form" id="ajax-contact-form" action="" data-form-validate="true">
+										<div class="form__inner">
+											<div class="form__name-label">Ваше ім'я</div>
+											<div class="form__input-holder form__input-holder--user">
+												<span>
+													<input type="text" value="" name="name-client"
+														placeholder="Наприклад: Григорій Сковорода" required />
+												</span>
+											</div>
+											<div class="form__phone-label">Ваш телефон</div>
+											<div class="form__input-holder form__input-holder--phone">
+												<span>
+													<input type="tel" value="" name="phone-client"
+														placeholder="+38 (ХХХ) ХХХ - ХХ - ХХ" required />
+												</span>
+											</div>
+											<div class="form__input-holder form__input-holder--file">
+												<label class="input-file">
+													<input type="file" id="myfile" name="myfile" multiple>
+													<span class="input-file-btn">Додати вкладення</span>
+												</label>
+											</div>
+											<input type="hidden" name="url">
+											<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+											<div class="form__button-holder">
+												<button class="btn-full" type="submit">
+													НАДІСЛАТИ
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Other-vacancies section -->
+			<section class="other-vacancies" id="section-other-vacancies">
+				<div class="other-vacancies__container container">
+					<div class="other-vacancies__header">
+						<h2 class="other-vacancies__title title">Інші вакансії</h2>
+					</div>
+					<div class="other-vacancies__content">
+						<div class="articles__slider swiper-container articles-slider">
+							<div class="swiper-wrapper">
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__text-holder">
+											<h5>Юрист-консульт в юридичний відділ</h5>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__text-holder">
+											<h5>Адвокат: Подання клієнтів у судових процесах, розробка юридичних стратегій та
+												рішень,
+												забезпечення захисту прав та інтересів клієнтів.</h5>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__holder">
+											<div class="articles-slide__text-holder">
+												<h5>Податковий консультант: Проведення податкових аудитів, розробка податкових
+													стратегій, підготовка податкових документів та консультація клієнтів із
+													податкових
+													питань.</h5>
+											</div>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__text-holder">
+											<h5>Корпоративний юрист: Робота з корпоративними клієнтами, розробка та аналіз
+												договорів,
+												угод та участь у угодах.</h5>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__text-holder">
+											<h5>Інтелектуальний власності адвокат: Захист та реєстрація інтелектуальної власності,
+												включаючи авторські права, патенти та товарні знаки.</h5>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__holder">
+											<div class="articles-slide__text-holder">
+												<h5>Юридичний аналітик: Проведення юридичного аналізу, дослідження законодавства,
+													підготовка документів та звітів, аналіз ризиків.</h5>
+											</div>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+								<a href="#" class="swiper-slide articles-slide card">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>від 20 000 грн</span>
+										</div>
+										<div class="articles-slide__text-holder">
+											<h5>Фахівець із дотримання правил (compliance): Забезпечення дотримання компанією
+												законів
+												та нормативів, розробка політик та процедур дотримання правил.</h5>
+										</div>
+										<span class="links _icon-arrow-link">
+											Читати далі
+										</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="articles__nav swiper-nav">
+							<div class="swiper-button-prev button-prev-articles">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M12.8313 15.9188C12.8774 15.9617 12.9143 16.0134 12.9399 16.0709C12.9656 16.1284 12.9793 16.1905 12.9804 16.2535C12.9816 16.3164 12.97 16.3789 12.9464 16.4373C12.9228 16.4956 12.8877 16.5487 12.8432 16.5932C12.7987 16.6377 12.7457 16.6728 12.6873 16.6964C12.629 16.7199 12.5664 16.7315 12.5035 16.7304C12.4406 16.7293 12.3785 16.7155 12.321 16.6899C12.2635 16.6643 12.2117 16.6273 12.1688 16.5813L5.91883 10.3313C5.83104 10.2434 5.78174 10.1242 5.78174 10C5.78174 9.87581 5.83104 9.75667 5.91883 9.66878L12.1688 3.41878C12.2577 3.33598 12.3752 3.2909 12.4967 3.29304C12.6181 3.29518 12.734 3.34438 12.8198 3.43026C12.9057 3.51615 12.9549 3.63201 12.9571 3.75345C12.9592 3.87489 12.9141 3.99242 12.8313 4.08128L6.91336 10L12.8313 15.9188Z"
+										fill="#39393A" />
+								</svg>
+							</div>
+							<div class="pagination-articles"></div>
+							<div class="swiper-button-next button-next-articles">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M14.0813 10.3314L7.83128 16.5814C7.74242 16.6642 7.62489 16.7093 7.50345 16.7071C7.38201 16.705 7.26615 16.6558 7.18026 16.5699C7.09438 16.484 7.04518 16.3682 7.04304 16.2467C7.0409 16.1253 7.08598 16.0078 7.16878 15.9189L13.0867 10.0001L7.16878 4.0814C7.08598 3.99254 7.0409 3.87501 7.04304 3.75357C7.04518 3.63213 7.09438 3.51627 7.18026 3.43038C7.26615 3.3445 7.38201 3.29531 7.50345 3.29316C7.62489 3.29102 7.74242 3.3361 7.83128 3.4189L14.0813 9.6689C14.1691 9.75679 14.2184 9.87593 14.2184 10.0001C14.2184 10.1244 14.1691 10.2435 14.0813 10.3314Z"
+										fill="#39393A" />
+								</svg>
+							</div>
+						</div>
+						<a class="btn-outline _icon-arrow-outline-btn" href="#">
+							ВіДКРИТИ ВСІ
+						</a>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<!-- Footer section -->
+<footer class="footer" id="section-footer">
+	<div class="bg-holder">
+		<picture>
+			<source media="(min-width:992px)" srcset="img/footer-bg.webp" type="image/webp">
+			<source media="(min-width:476px)" srcset="img/footer-bg-tablet.webp" type="image/webp">
+			<source media="(min-width:476px)" srcset="img/footer-bg-tablet.png" type="image/png">
+			<source srcset="img/footer-bg-mob.webp" type="image/webp">
+			<img src="img/footer-bg-mob.png" width="1920" height="445" alt="image">
+		</picture>
+	</div>
+	<div class="footer__container container">
+		<div class="footer__row">
+			<div class="footer__column footer__column--menu">
+				<h4>КЛІЄНТАМ</h4>
+				<ul class="menu">
+					<li class="menu-item">
+						<a class="menu-links" href="#">Послуги</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Про нас</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Кейси</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Новини та статті</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Контакти</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h4>АДРЕСА</h4>
+				<ul>
+					<li><span>м. Київ</span></li>
+					<li>вул. Дегтярівська, будинок. 53а, офіс 419-420</li>
+					<li><a class="footer__google-maps" href="#">Дивитися на Google Maps</a></li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h4>ЗВ'ЯЗОК З НАМИ</h4>
+				<ul>
+					<li><a class="footer__phone" href="tel:+380504749294">+38 (050) 474-92-94</a></li>
+					<li><a class="footer__email" href="mailto:нужна_пошта@сюди.com">нужна_пошта@сюди.com</a></li>
+				</ul>
+				<a class="btn-full scroll-to" href="#section-cta">ЗАМОВИТИ КОНСУЛЬТАЦІЮ</a>
+			</div>
+		</div>
+		<div class="footer__row footer__row--copyright">
+			<div class="footer__column">
+				<div class="logo">
+					<a href="index.html">
+						<picture>
+							<source media="(min-width:1280px)" srcset="img/logo-white.svg" type="image/webp">
+							<img src="img/logo-white-mob.svg" width="157" height="37" alt="image">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<div class="footer__column footer__column--text">
+				<p>Kyiv, str. Degtyarivska, building. 53a, office 419-420 © 2023 ok-consulting.com.ua - Consulting services
+					for business. All rights reserved.</p>
+			</div>
+			<div class="footer__column">
+				<ul class="social">
+					<li>
+						<a class="btn-full _icon-instagram" href="#">
+						</a>
+					</li>
+					<li>
+						<a class="btn-full _icon-facebook" href="#">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<a class="label-agency" href="https://shapoval.agency/?utm_source=dev&utm_medium=site&utm_campaign=">
+		<img src="img/shapoval-agency.svg" width="109" height="53" alt="image">
+	</a>
+</footer>
+	</div>
+
+	<div class="modal-consultation">
+	<div class="modal-consultation__inner">
+		<h5>ЗАМОВЛЕННЯ КОНСУЛЬТАЦІЇ</h5>
+		<div id="note-1"></div>
+		<form class="form" id="ajax-contact-form" action="" data-form-validate="true">
+			<div class="form__inner">
+				<div class="form__name-label">Ваше ім'я</div>
+				<div class="form__input-holder form__input-holder--user">
+					<span>
+						<input type="text" value="" name="name-client" placeholder="Наприклад: Григорій Сковорода" required />
+					</span>
+				</div>
+				<div class="form__phone-label">Ваш телефон</div>
+				<div class="form__input-holder form__input-holder--phone">
+					<span>
+						<input type="tel" value="" name="phone-client" placeholder="+38 (ХХХ) ХХХ - ХХ - ХХ" required />
+					</span>
+				</div>
+				<input type="hidden" name="url">
+				<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+				<div class="form__button-holder">
+					<button class="btn-full" type="submit">
+						ЗАМОВИТИ
+					</button>
+				</div>
+			</div>
+		</form>
+		<div class="social">
+			<h5>ЗВ'ЯЗОК З НАМИ</h5>
+			<a class="phone" href="tel:+380504749294">+38 (050) 474-92-94</a>
+			<a class="email" href="mailto:нужна_пошта@сюди.com">нужна_пошта@сюди.com</a>
+		</div>
+		<div class="address">
+			<h5>АДРЕСА</h5>
+			<div class="address__content">
+				<span>м. Київ</span>
+				<p>вул. Дегтярівська, будинок. 53а, офіс 419-420</p>
+				<a class="links" href="#">Дивитися на Google Maps</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="overlay"></div>
+
+
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>

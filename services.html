@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="img/favico.svg" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css">
+	<link rel="stylesheet" href="css/style.min.css" />
+	<title>Services</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="bg-noise-holder" style="background-image: url('img/noise.png');">
+		</div>
+		<!-- Header section -->
+<header class="header">
+	<div class="header__container container">
+		<div class="header__row">
+			<div class="header__burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="header__column">
+				<a href="index.html" class="header__logo-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/logo-black.svg" type="image/webp">
+						<img src="img/logo-header-mob.svg" width="185" height="44" alt="icon">
+					</picture>
+				</a>
+				<div class="header__lang lang">
+					<div class="lang__current _icon-arrow-down">
+						UA
+					</div>
+					<div class="lang__text-holder">
+						<a href="#" class="active">
+							<img src="img/ua.svg" width="20" height="14" alt="icon">
+							УКРАЇНСЬКА
+						</a>
+						<a href="#">
+							<img src="img/usa.svg" width="20" height="14" alt="icon">
+							ENGLISH
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__column">
+				<nav class="header__menu">
+					<div class="header__menu-wrapper">
+						<div class="accordion">
+							<div class="accordion__wrapper">
+								<button class="accordion__btn trigger-accordion-js _icon-arrow-down">
+									Бухгалтерські послуги
+								</button>
+								<div class="accordion__text-holder">
+									<ul>
+										<li><a href="https://www.google.com/">Бухгалтерія для ТОВ</a></li>
+										<li><a href="#">Бухгалтерія для ФОП</a></li>
+										<li><a href="#">Бухгалтерія для кафе та ресторанів</a></li>
+										<li><a href="#">Кадровий облік</a></li>
+										<li><a href="#">Подання звітності ФОП</a></li>
+										<li><a href="#">Відновлення обліку </a></li>
+										<li><a href="#">Консультації</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="accordion__wrapper">
+								<button class="accordion__btn trigger-accordion-js _icon-arrow-down">
+									Юридичні послуги
+								</button>
+								<div class="accordion__text-holder">
+									<ul>
+										<li><a href="#">Реєстрація ТОВ/ФОП </a></li>
+										<li><a href="#">Внесення/зміна КВЕД</a></li>
+										<li><a href="#">Розробка договорів </a></li>
+										<li><a href="#">Адміністративне оскарження</a></li>
+										<li><a href="#">Претензійно-позивна робота</a></li>
+										<li><a href="#">Юридична консультація </a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="accordion__wrapper">
+								<button class="accordion__btn trigger-accordion-js _icon-arrow-down">
+									Консалтингові послуги
+								</button>
+								<div class="accordion__text-holder">
+									<ul>
+										<li><a href="#">Податкове планування</a></li>
+										<li><a href="#">Постановка та ведення управлінського обліку </a></li>
+										<li><a href="#">Супровід податкових перевірок </a></li>
+										<li><a href="#">Автоматизація бізнес процесів</a></li>
+										<li><a href="#">Послуга фінансового менеджера</a></li>
+										<li><a href="#">Фінансовий директор на аутсорсі</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<ul id="menu-main-menu" class="menu sf-menu">
+							<li class="menu-item menu-item-submenu">
+								<a href="services.html" class="_icon-arrow-down">Послуги
+								</a>
+							</li>
+							<li class="menu-item">
+								<a class="header__link" href="about.html">Про нас</a>
+							</li>
+
+							<li class="menu-item">
+								<a class="header__link" href="cases.html">Кейси</a>
+							</li>
+
+							<li class="menu-item">
+								<a class="header__link" href="news.html">Новини та статті</a>
+							</li>
+
+							<li class="menu-item">
+								<a class="header__link" href="contacts.html">Контакти</a>
+							</li>
+						</ul>
+						<div class="header__lang lang">
+							<span>Сайт іншими мовами</span>
+							<div class="lang__text-holder">
+								<a href="#" class="active">
+									<img src="img/ua.svg" width="20" height="14" alt="icon">
+									УКРАЇНСЬКА
+								</a>
+								<a href="#">
+									<img src="img/usa.svg" width="20" height="14" alt="icon">
+									ENGLISH
+								</a>
+							</div>
+						</div>
+						<div class="header__address address">
+							<h5>АДРЕСА</h5>
+							<div class="address__content">
+								<span>м. Київ</span>
+								<p>вул. Дегтярівська, будинок. 53а, офіс 419-420</p>
+								<a class="links" href="#">Дивитися на Google Maps</a>
+							</div>
+						</div>
+						<div class="header__social social">
+							<h5>ЗВ'ЯЗОК З НАМИ</h5>
+							<a class="phone" href="tel:+380504749294">+38 (050) 474-92-94</a>
+							<a class="email" href="mailto:нужна_пошта@сюди.com">нужна_пошта@сюди.com</a>
+							<a class="btn-full scroll-to" href="#section-cta">КОНСУЛЬТАЦІЯ</a>
+						</div>
+					</div>
+				</nav>
+				<div class="overlay"></div>
+			</div>
+			<div class="header__column">
+				<div class="phone-box">
+					<a href="tel:+380504749294">+38 (050) 474-92-94</a>
+					<a class="btn-full scroll-to" href="#section-cta">
+						<span class="_icon-phone-input">
+						</span>
+						Консультація
+					</a>
+					<a class="btn-full btn-modal-consultation">
+						<span class="phone-icon _icon-phone-input">
+						</span>
+						<span class="close-icon ">
+							<img src="img/close.svg" width="20" height="20" alt="icon">
+						</span>
+						Консультація
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="submenu">
+		<div class="submenu__container container">
+			<div class="submenu__column">
+				<ul class="menu submenu__list">
+					<li class="menu-item menu-item--category"><a href="#">
+							Бухгалтерські послуги
+							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.5 2.32812C8.08154 2.32812 6.69493 2.74875 5.51552 3.5368C4.33611 4.32486 3.41688 5.44495 2.87405 6.75544C2.33123 8.06593 2.18921 9.50796 2.46593 10.8992C2.74266 12.2904 3.42572 13.5683 4.42872 14.5713C5.43173 15.5743 6.70963 16.2573 8.10084 16.5341C9.49205 16.8108 10.9341 16.6688 12.2446 16.126C13.555 15.5831 14.6751 14.6639 15.4632 13.4845C16.2513 12.3051 16.6719 10.9185 16.6719 9.5C16.6696 7.59859 15.9133 5.77569 14.5688 4.43119C13.2243 3.08668 11.4014 2.33036 9.5 2.32812ZM9.5 15.8281C8.24842 15.8281 7.02494 15.457 5.98429 14.7616C4.94363 14.0663 4.13254 13.078 3.65358 11.9217C3.17462 10.7654 3.0493 9.49298 3.29347 8.26544C3.53764 7.03791 4.14034 5.91034 5.02534 5.02534C5.91035 4.14034 7.03791 3.53764 8.26545 3.29347C9.49298 3.0493 10.7654 3.17461 11.9217 3.65357C13.078 4.13254 14.0663 4.94363 14.7616 5.98428C15.457 7.02494 15.8281 8.24842 15.8281 9.5C15.8263 11.1778 15.159 12.7863 13.9726 13.9726C12.7863 15.159 11.1778 15.8263 9.5 15.8281ZM11.4856 9.20188C11.5646 9.28098 11.609 9.3882 11.609 9.5C11.609 9.6118 11.5646 9.71902 11.4856 9.79813L8.67313 12.6106C8.59315 12.6851 8.48738 12.7257 8.37808 12.7238C8.26879 12.7219 8.16451 12.6776 8.08722 12.6003C8.00992 12.523 7.96565 12.4187 7.96372 12.3094C7.96179 12.2001 8.00236 12.0943 8.07688 12.0144L10.5905 9.5L8.07688 6.98563C8.00236 6.90565 7.96179 6.79988 7.96372 6.69058C7.96565 6.58129 8.00992 6.47701 8.08722 6.39971C8.16451 6.32242 8.26879 6.27814 8.37808 6.27621C8.48738 6.27429 8.59315 6.31486 8.67313 6.38938L11.4856 9.20188Z"
+									fill="#39393A" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu-item"><a href="#">Бухгалтерія для ТОВ </a></li>
+					<li class="menu-item"><a href="#">Бухгалтерія для ФОП</a></li>
+					<li class="menu-item"><a href="#">Бухгалтерія для кафе та ресторанів</a></li>
+					<li class="menu-item"><a href="#">Кадровий облік</a></li>
+					<li class="menu-item"><a href="#">Подання звітності ФОП</a></li>
+					<li class="menu-item"><a href="#">Відновлення обліку</a></li>
+					<li class="menu-item"><a href="#">Консультації </a></li>
+				</ul>
+			</div>
+			<div class="submenu__column">
+				<ul class="menu submenu__list">
+					<li class="menu-item menu-item--category"><a href="#">
+							Юридичні послуги
+							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.5 2.32812C8.08154 2.32812 6.69493 2.74875 5.51552 3.5368C4.33611 4.32486 3.41688 5.44495 2.87405 6.75544C2.33123 8.06593 2.18921 9.50796 2.46593 10.8992C2.74266 12.2904 3.42572 13.5683 4.42872 14.5713C5.43173 15.5743 6.70963 16.2573 8.10084 16.5341C9.49205 16.8108 10.9341 16.6688 12.2446 16.126C13.555 15.5831 14.6751 14.6639 15.4632 13.4845C16.2513 12.3051 16.6719 10.9185 16.6719 9.5C16.6696 7.59859 15.9133 5.77569 14.5688 4.43119C13.2243 3.08668 11.4014 2.33036 9.5 2.32812ZM9.5 15.8281C8.24842 15.8281 7.02494 15.457 5.98429 14.7616C4.94363 14.0663 4.13254 13.078 3.65358 11.9217C3.17462 10.7654 3.0493 9.49298 3.29347 8.26544C3.53764 7.03791 4.14034 5.91034 5.02534 5.02534C5.91035 4.14034 7.03791 3.53764 8.26545 3.29347C9.49298 3.0493 10.7654 3.17461 11.9217 3.65357C13.078 4.13254 14.0663 4.94363 14.7616 5.98428C15.457 7.02494 15.8281 8.24842 15.8281 9.5C15.8263 11.1778 15.159 12.7863 13.9726 13.9726C12.7863 15.159 11.1778 15.8263 9.5 15.8281ZM11.4856 9.20188C11.5646 9.28098 11.609 9.3882 11.609 9.5C11.609 9.6118 11.5646 9.71902 11.4856 9.79813L8.67313 12.6106C8.59315 12.6851 8.48738 12.7257 8.37808 12.7238C8.26879 12.7219 8.16451 12.6776 8.08722 12.6003C8.00992 12.523 7.96565 12.4187 7.96372 12.3094C7.96179 12.2001 8.00236 12.0943 8.07688 12.0144L10.5905 9.5L8.07688 6.98563C8.00236 6.90565 7.96179 6.79988 7.96372 6.69058C7.96565 6.58129 8.00992 6.47701 8.08722 6.39971C8.16451 6.32242 8.26879 6.27814 8.37808 6.27621C8.48738 6.27429 8.59315 6.31486 8.67313 6.38938L11.4856 9.20188Z"
+									fill="#39393A" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu-item"><a href="#">Реєстрація ТОВ/ФОП</a></li>
+					<li class="menu-item"><a href="#">Внесення/зміна КВЕД</a></li>
+					<li class="menu-item"><a href="#">Розробка договорів</a></li>
+					<li class="menu-item"><a href="#">Адміністративне оскарження </a></li>
+					<li class="menu-item"><a href="#">Претензійно-позивна робота</a></li>
+					<li class="menu-item"><a href="#">Юридична консультація </a></li>
+				</ul>
+			</div>
+			<div class="submenu__column">
+				<ul class="menu submenu__list">
+					<li class="menu-item menu-item--category">
+						<a href="#">
+							Консалтингові послуги
+							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.5 2.32812C8.08154 2.32812 6.69493 2.74875 5.51552 3.5368C4.33611 4.32486 3.41688 5.44495 2.87405 6.75544C2.33123 8.06593 2.18921 9.50796 2.46593 10.8992C2.74266 12.2904 3.42572 13.5683 4.42872 14.5713C5.43173 15.5743 6.70963 16.2573 8.10084 16.5341C9.49205 16.8108 10.9341 16.6688 12.2446 16.126C13.555 15.5831 14.6751 14.6639 15.4632 13.4845C16.2513 12.3051 16.6719 10.9185 16.6719 9.5C16.6696 7.59859 15.9133 5.77569 14.5688 4.43119C13.2243 3.08668 11.4014 2.33036 9.5 2.32812ZM9.5 15.8281C8.24842 15.8281 7.02494 15.457 5.98429 14.7616C4.94363 14.0663 4.13254 13.078 3.65358 11.9217C3.17462 10.7654 3.0493 9.49298 3.29347 8.26544C3.53764 7.03791 4.14034 5.91034 5.02534 5.02534C5.91035 4.14034 7.03791 3.53764 8.26545 3.29347C9.49298 3.0493 10.7654 3.17461 11.9217 3.65357C13.078 4.13254 14.0663 4.94363 14.7616 5.98428C15.457 7.02494 15.8281 8.24842 15.8281 9.5C15.8263 11.1778 15.159 12.7863 13.9726 13.9726C12.7863 15.159 11.1778 15.8263 9.5 15.8281ZM11.4856 9.20188C11.5646 9.28098 11.609 9.3882 11.609 9.5C11.609 9.6118 11.5646 9.71902 11.4856 9.79813L8.67313 12.6106C8.59315 12.6851 8.48738 12.7257 8.37808 12.7238C8.26879 12.7219 8.16451 12.6776 8.08722 12.6003C8.00992 12.523 7.96565 12.4187 7.96372 12.3094C7.96179 12.2001 8.00236 12.0943 8.07688 12.0144L10.5905 9.5L8.07688 6.98563C8.00236 6.90565 7.96179 6.79988 7.96372 6.69058C7.96565 6.58129 8.00992 6.47701 8.08722 6.39971C8.16451 6.32242 8.26879 6.27814 8.37808 6.27621C8.48738 6.27429 8.59315 6.31486 8.67313 6.38938L11.4856 9.20188Z"
+									fill="#39393A" />
+							</svg>
+						</a>
+					</li>
+					<li class="menu-item"><a href="#">Податкове планування</a></li>
+					<li class="menu-item"><a href="#">Постановка та ведення управлінського обліку </a></li>
+					<li class="menu-item"><a href="#">Супровід податкових перевірок </a></li>
+					<li class="menu-item"><a href="#">Автоматизація бізнес процесів</a></li>
+					<li class="menu-item"><a href="#">Послуга фінансового менеджера</a></li>
+					<li class="menu-item"><a href="#">Фінансовий директор на аутсорсі</a></li>
+				</ul>
+			</div>
+			<div class="submenu__column">
+				<div class="promo">
+					<div class="promo__inner">
+						<div class="promo__image-holder">
+							<picture>
+								<source media="(min-width:1280px)" srcset="img/promo-header-img.webp" type="image/webp">
+								<img src="img/promo-img-mob.png" width="139" height="276" alt="image">
+							</picture>
+						</div>
+
+						<div class="promo__decor-holder">
+							<picture><source srcset="img/promo-header-decor.webp" type="image/webp"><img src="img/promo-header-decor.png" width="250" height="250" alt="image"></picture>
+						</div>
+						<div class="promo__content">
+							<h3>Комплексний
+								бухгалтерський супровід</h3>
+							<a class="btn-full _icon-arrow-right" data-fancybox data-src="#quiz" href="javascript:;">
+								РОЗПОЧАТИ ЗАРАЗ
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="content">
+
+			<!-- Breadcrumbs  section-->
+			<section class="breadcrumbs">
+				<div class="breadcrumbs__container container">
+					<div id="breadcrumbs__list" class="breadcrumbs__list">
+						<span>
+							<span>
+								<a class="links" href="index.html">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M14.478 7.52875L13.143 6.19541L8.47061 1.52869C8.34544 1.40371 8.17569 1.3335 7.9987 1.3335C7.82171 1.3335 7.65196 1.40371 7.52679 1.52869L2.85438 6.19541L1.5194 7.52875C1.39781 7.65449 1.33054 7.82289 1.33206 7.99769C1.33358 8.17249 1.40378 8.3397 1.52753 8.46331C1.65129 8.58692 1.81871 8.65703 1.99372 8.65855C2.16873 8.66007 2.33734 8.59287 2.46323 8.47143L2.6588 8.27609V13.3335C2.6588 13.6871 2.79945 14.0263 3.04981 14.2763C3.30016 14.5264 3.63972 14.6668 3.99378 14.6668H5.99624C6.17327 14.6668 6.34304 14.5966 6.46822 14.4716C6.5934 14.3465 6.66372 14.177 6.66372 14.0002V11.3335C6.66372 11.1566 6.73405 10.9871 6.85923 10.8621C6.98441 10.737 7.15418 10.6668 7.33121 10.6668H8.66619C8.84321 10.6668 9.01299 10.737 9.13817 10.8621C9.26335 10.9871 9.33367 11.1566 9.33367 11.3335V14.0002C9.33367 14.177 9.404 14.3465 9.52917 14.4716C9.65435 14.5966 9.82413 14.6668 10.0012 14.6668H12.0036C12.3577 14.6668 12.6972 14.5264 12.9476 14.2763C13.1979 14.0263 13.3386 13.6871 13.3386 13.3335V8.27609L13.5342 8.47143C13.6601 8.59287 13.8287 8.66007 14.0037 8.65855C14.1787 8.65703 14.3461 8.58692 14.4699 8.46331C14.5936 8.3397 14.6638 8.17249 14.6653 7.99769C14.6669 7.82289 14.5996 7.65449 14.478 7.52875Z"
+											fill="#4B4B4D" />
+									</svg>
+									Головна
+								</a>
+							</span>
+							<span class="brDevider">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M11.2635 8.26492L6.26346 13.2649C6.19237 13.3312 6.09835 13.3672 6.0012 13.3655C5.90405 13.3638 5.81135 13.3244 5.74265 13.2557C5.67394 13.187 5.63459 13.0943 5.63287 12.9972C5.63116 12.9 5.66722 12.806 5.73346 12.7349L10.4678 7.99992L5.73346 3.26492C5.66722 3.19384 5.63116 3.09981 5.63287 3.00266C5.63459 2.90551 5.67394 2.81282 5.74265 2.74411C5.81135 2.67541 5.90405 2.63605 6.0012 2.63434C6.09835 2.63262 6.19237 2.66868 6.26346 2.73492L11.2635 7.73492C11.3337 7.80524 11.3731 7.90055 11.3731 7.99992C11.3731 8.0993 11.3337 8.19461 11.2635 8.26492Z"
+										fill="#4B4B4D" />
+								</svg>
+							</span>
+							<span>
+								Послуги
+							</span>
+							<span class="brDevider">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M11.2635 8.26492L6.26346 13.2649C6.19237 13.3312 6.09835 13.3672 6.0012 13.3655C5.90405 13.3638 5.81135 13.3244 5.74265 13.2557C5.67394 13.187 5.63459 13.0943 5.63287 12.9972C5.63116 12.9 5.66722 12.806 5.73346 12.7349L10.4678 7.99992L5.73346 3.26492C5.66722 3.19384 5.63116 3.09981 5.63287 3.00266C5.63459 2.90551 5.67394 2.81282 5.74265 2.74411C5.81135 2.67541 5.90405 2.63605 6.0012 2.63434C6.09835 2.63262 6.19237 2.66868 6.26346 2.73492L11.2635 7.73492C11.3337 7.80524 11.3731 7.90055 11.3731 7.99992C11.3731 8.0993 11.3337 8.19461 11.2635 8.26492Z"
+										fill="#4B4B4D" />
+								</svg>
+							</span>
+							<span class="breadcrumbs__last" aria-current="page">Бухгалтерські послуги
+							</span>
+
+						</span>
+					</div>
+				</div>
+			</section>
+
+			<!-- Jumbotron section -->
+			<!-- <section class="jumbotron" id="section-jumbotron">
+				<div class="bg-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/square-bg.webp" type="image/webp">
+						<source  srcset="img/square-bg-mob.webp" type="image/webp">
+						<img src="img/square-bg-mob.png" width="1920" height="744" alt="image">
+					</picture>
+				</div>
+				<div class="jumbotron__container container">
+					<div class="jumbotron__left-column">
+						<h2 class="jumbotron__title title">Бухгалтерські послуги</h2>
+						<h3 class="jumbotron__suptitle suptitle">Ми – команда висококваліфікованих фахівців, готова взяти на
+							себе всі турботи щодо вашого фінансового обліку.</h3>
+						<div class="jumbotron__text-holder">
+							<p>З нами ваші числа завжди будуть в безпеці, а фінансові процеси – оптимізовані та ефективні.
+								Довірте нам ваші фінанси, і ми зробимо все можливе, щоб ваш бізнес процвітав.</p>
+						</div>
+					</div>
+					<div class="jumbotron__right-column jumbotron__right-column--cta-card">
+						<div class="card cta-card">
+							<div class="card__inner">
+								<div class="badge badge--orange">
+									<h5>Знижка 10%</h5>
+									<span>на контракт від 3 місяців!</span>
+									<div class="badge__svg-holder">
+										<img src="img/fire.svg" width="82" height="83" alt="icon">
+									</div>
+								</div>
+								<div class="cta-form-holder">
+									<h4>ШВИДКА ЗАЯВКА</h4>
+									<p>Залишіть свій телефон і ми зв'яжемося з вами та обговоримо всі деталі співпраці!</p>
+									<div id="note"></div>
+									<form class="form" id="ajax-contact-form" action="" data-form-validate="true">
+										<div class="form__inner">
+											<div class="form__phone-label">Ваш телефон</div>
+											<div class="form__input-holder form__input-holder--phone">
+												<span>
+													<input type="tel" value="" name="phone-client"
+														placeholder="+38 (ХХХ) ХХХ - ХХ - ХХ" required />
+												</span>
+											</div>
+											<input type="hidden" name="url">
+											<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+											<div class="form__button-holder">
+												<button class="btn-full" type="submit">
+													ЗАМОВИТИ КОНСУЛЬТАЦІЮ
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section> -->
+
+			<!-- Jumbotron section -->
+			<!-- <section class="jumbotron" id="section-jumbotron">
+				<div class="bg-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/square-bg.webp" type="image/webp">
+						<source  srcset="img/square-bg-mob.webp" type="image/webp">
+						<img src="img/square-bg-mob.png" width="1920" height="744" alt="image">
+					</picture>
+				</div>
+				<div class="jumbotron__container container">
+					<div class="jumbotron__left-column">
+						<h2 class="jumbotron__title title">Юридичні послуги</h2>
+						<h3 class="jumbotron__suptitle suptitle">Юридична підтримка для вашого успіху!</h3>
+						<div class="jumbotron__text-holder">
+							<p>Наші юридичні послуги - це надійний компас у світі права.</p>
+
+							<p>Незалежно від вашої потреби - від створення договорів до рішучого захисту в суді - ми тут, щоб
+								надати вам правову впевненість.
+							</p>
+							<p>Зв'яжіться з нами для ретельної консультації щодо найкращого шляху вперед. 📜🔒🏛️</p>
+						</div>
+					</div>
+					<div class="jumbotron__right-column jumbotron__right-column--cta-card">
+						<div class="card cta-card">
+							<div class="card__inner">
+								<div class="badge badge--orange">
+									<h5>Знижка 10%</h5>
+									<span>на контракт від 3 місяців!</span>
+									<div class="badge__svg-holder">
+										<img src="img/fire.svg" width="82" height="83" alt="icon">
+									</div>
+								</div>
+								<div class="cta-form-holder">
+									<h4>ШВИДКА ЗАЯВКА</h4>
+									<p>Залишіть свій телефон і ми зв'яжемося з вами та обговоримо всі деталі співпраці!</p>
+									<div id="note"></div>
+									<form class="form" id="ajax-contact-form" action="" data-form-validate="true">
+										<div class="form__inner">
+											<div class="form__phone-label">Ваш телефон</div>
+											<div class="form__input-holder form__input-holder--phone">
+												<span>
+													<input type="tel" value="" name="phone-client"
+														placeholder="+38 (ХХХ) ХХХ - ХХ - ХХ" required />
+												</span>
+											</div>
+											<input type="hidden" name="url">
+											<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+											<div class="form__button-holder">
+												<button class="btn-full" type="submit">
+													ЗАМОВИТИ КОНСУЛЬТАЦІЮ
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section> -->
+
+			<!-- Jumbotron section -->
+			<section class="jumbotron" id="section-jumbotron">
+				<div class="bg-holder">
+					<picture>
+						<source media="(min-width:1280px)" srcset="img/square-bg.webp" type="image/webp">
+						<source srcset="img/square-bg-mob.webp" type="image/webp">
+						<img src="img/square-bg-mob.png" width="1920" height="744" alt="image">
+					</picture>
+				</div>
+				<div class="jumbotron__container container">
+					<div class="jumbotron__left-column">
+						<h2 class="jumbotron__title title">Консалтингові послуги</h2>
+						<h3 class="jumbotron__suptitle suptitle">Вітаємо в “OK-CONSALTING”!</h3>
+						<div class="jumbotron__text-holder">
+							<p>Тут ми не просто консультуємо, а власне "варимо бульйон" із інноваційних ідей для вашого
+								бізнесу!</p>
+							<p>Ми - своєрідні "археологи" успіху, готові розкопувати найцікавіші можливості у вашій ніші.</p>
+							<p>Тут ви не знайдете стандартних "рецептів", а лише найсвіжіші "інгредієнти" для досягнення ваших
+								цілей.</p>
+							<p>Не обережні підходи, а тільки "космічні стрибки" до висот вашого успіху. Наважайтеся на
+								відмінність разом з нами!</p>
+						</div>
+					</div>
+					<div class="jumbotron__right-column jumbotron__right-column--cta-card">
+						<div class="card cta-card">
+							<div class="card__inner">
+								<div class="badge badge--orange">
+									<h5>Знижка 10%</h5>
+									<span>на контракт від 3 місяців!</span>
+									<div class="badge__svg-holder">
+										<img src="img/fire.svg" width="82" height="83" alt="icon">
+									</div>
+								</div>
+								<div class="cta-form-holder">
+									<h4>ШВИДКА ЗАЯВКА</h4>
+									<p>Залишіть свій телефон і ми зв'яжемося з вами та обговоримо всі деталі співпраці!</p>
+									<div id="note"></div>
+									<form class="form" id="ajax-contact-form" action="" data-form-validate="true">
+										<div class="form__inner">
+											<div class="form__phone-label">Ваш телефон</div>
+											<div class="form__input-holder form__input-holder--phone">
+												<span>
+													<input type="tel" value="" name="phone-client"
+														placeholder="+38 (ХХХ) ХХХ - ХХ - ХХ" required />
+												</span>
+											</div>
+											<input type="hidden" name="url">
+											<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+											<div class="form__button-holder">
+												<button class="btn-full" type="submit">
+													ЗАМОВИТИ КОНСУЛЬТАЦІЮ
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- Listing section -->
+			<!-- <section class="listing" id="section-listing">
+				<div class="listing__container container">
+					<div class="listing__header">
+						<h3 class="listing__subtitle subtitle">БУХГАЛТЕРСЬКІ ПОСЛУГИ</h3>
+						<h2 class="listing__title title">Послуги в цьому розділі</h2>
+					</div>
+					<div class="listing__row">
+						<div class="listing__left-column">
+							<div class="person">
+								<div class="person__row">
+									<div class="person__left-column">
+										<div class="person__image-holder">
+											<picture><source srcset="img/maria-avatar.webp" type="image/webp"><img src="img/maria-avatar.jpg" width="65" height="65" alt="image"></picture>
+										</div>
+									</div>
+									<div class="person__right-column">
+										<h5 class="person__name">Черняк Марія</h5>
+										<div class="person__text">
+											<p>🫣 Не впевнені, яку саме бухгалтерську послугу обрати? Не хвилюйтеся! 👌 Наша мета -
+												зробити все максимально зручним для вас. </p>
+											<p>📝 Якщо ви маєте сумніви або запитання, <a href="/#section-cta">залиште
+													заявку</a>, і ми з
+												радістю допоможемо
+												вам з'ясувати найкращий варіант.</p>
+											<p>Ми надамо консультацію, проаналізуємо ваші потреби та порекомендуємо оптимальний
+												шлях для вашого бізнесу.</p>
+											<p>🚀 Разом ми знайдемо ідеальне рішення, яке відповідає вашим унікальним потребам та
+												допоможе досягти ваших цілей. Не вагайтеся – зробіть крок до співпраці з нами, і ми
+												разом розкриємо потенціал вашого бізнесу. 💼</p>
+										</div>
+										<div class="person__position">Головний бухгалтер</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="listing__right-column">
+							<div class="listing__cards">
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Бухгалтерія для ТОВ </a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Бухгалтерія для ФОП</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Бухгалтерія для кафе та ресторанів </a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Кадровий облік</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Подання звітності ФОП</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Відновлення обліку </a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Консультації </a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+							</div>
+							<button id="read-more" class="btn-outline _icon-arrow-down">
+								<span id="read-more-text-archive">Архівні послуги</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+			<!-- Listing section -->
+			<!-- <section class="listing" id="section-listing">
+				<div class="listing__container container">
+					<div class="listing__header">
+						<h3 class="listing__subtitle subtitle">ЮРИДИЧНІ ПОСЛУГИ</h3>
+						<h2 class="listing__title title">Послуги в цьому розділі</h2>
+					</div>
+					<div class="listing__row">
+						<div class="listing__left-column">
+							<div class="person">
+								<div class="person__row">
+									<div class="person__left-column">
+										<div class="person__image-holder">
+											<picture><source srcset="img/ludmila-avatar.webp" type="image/webp"><img src="img/ludmila-avatar.jpg" width="65" height="65" alt="image"></picture>
+										</div>
+									</div>
+									<div class="person__right-column">
+										<h5 class="person__name">Чемерис Людмила</h5>
+										<div class="person__text">
+											<p>Як юрист із роками досвіду, я розумію, що справи, пов'язані з правом, можуть бути
+												заплутаними та незрозумілими.</p>
+											<p>Моя мета - допомогти вам зрозуміти ваші права та вибрати найкращий шлях вперед.
+												🕵️‍♂️
+												Чи ви створюєте новий бізнес, переглядаєте угоди, чи потребуєте захисту в суді - моя
+												команда та я завжди готові бути поруч з вами.</p>
+											<p>Ми ретельно аналізуємо вашу ситуацію, пропонуємо вам варіанти та працюємо на
+												результат. 💼📜</p>
+											<p>Ваші інтереси - наш пріоритет. Працюючи з нами, ви можете бути впевнені, що
+												отримаєте висококваліфіковану, професійну та конфіденційну підтримку на кожному
+												етапі. 🔒✨</p>
+											<p>Залиште свої правові турботи на наші плечі. Ми готові допомогти вам реалізувати ваші
+												права та досягнути цілей.</p>
+
+										</div>
+										<div class="person__position">Начальник юридичного відділу</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="listing__right-column">
+							<div class="listing__cards">
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Реєстрація ТОВ/ФОП</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Реєстрація ТОВ/ФОП</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Розробка договорів</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Адміністративне оскарження</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Претензійно-позивна робота</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Юридична консультація</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+							</div>
+							<button id="read-more" class="btn-outline _icon-arrow-down">
+								<span id="read-more-text-archive">Архівні послуги</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+			<!-- Listing section -->
+			<section class="listing" id="section-listing">
+				<div class="listing__container container">
+					<div class="listing__header">
+						<h3 class="listing__subtitle subtitle">КОНСАЛТИНГОВІ ПОСЛУГИ</h3>
+						<h2 class="listing__title title">Послуги в цьому розділі</h2>
+					</div>
+					<div class="listing__row">
+						<div class="listing__left-column">
+							<div class="person">
+								<div class="person__row">
+									<div class="person__left-column">
+										<div class="person__image-holder">
+											<picture><source srcset="img/olga-avatar-2.webp" type="image/webp"><img src="img/olga-avatar-2.jpg" width="65" height="65" alt="image"></picture>
+										</div>
+									</div>
+									<div class="person__right-column">
+										<h5 class="person__name">Дерев’янко Ольга</h5>
+										<div class="person__text">
+											<p>🚀 Ласкаво просимо на борт інноваційного корабля, де ми разом відкриваємо горизонти
+												нового успіху!</p>
+											<p>Я - капітан цього екіпажу, і моя місія - привести нашу компанію до нових вершин.</p>
+											<p>З нами ви відчуєте, що "двері відчиняються" в інший бізнес-вимір, де звичайність –
+												це архаїзм, а інновації – наша щоденна норма.</p>
+											<p>Ми – не лише команда, ми - "креативні теслярі", що витворяють майстерність з вашою
+												мрією про успіх. Разом ми "намічаємо курс" до великих досягнень. Відчуйте
+												"пульсацію" ефективності та ентузіазму в нашій команді! 🌟🏆🎉</p>
+										</div>
+										<div class="person__position">Директор компанії</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="listing__right-column">
+							<div class="listing__cards">
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Податкове планування</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Постановка та ведення управлінського обліку </a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Супровід податкових перевірок</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Автоматизація бізнес процесів</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Послуга фінансового менеджера</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__inner">
+										<a href="#">Фінансовий директор на аутсорсі</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+								<div class="card archive">
+									<div class="card__inner">
+										<div class="badge badge--small">
+											<span>АРХІВ</span>
+										</div>
+										<a href="#">Назва послуги</a>
+									</div>
+								</div>
+							</div>
+							<button id="read-more" class="btn-outline _icon-arrow-down">
+								<span id="read-more-text-archive">Архівні послуги</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- News section -->
+			<section class="news news--notab" id="section-news">
+				<div class="news__container container">
+					<div class="news__header">
+						<h2 class="news__title title">Корисні статті</h2>
+					</div>
+					<div class="articles__slider swiper-container articles-slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-1.webp" type="image/webp"><img src="img/cases-img-1.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__text-holder">
+										<h5>Як анулювати ліцензію на право роздрібної торгівлі алкогольними напоями та
+											тютюновими
+											виробами?</h5>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-2.webp" type="image/webp"><img src="img/cases-img-2.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__text-holder">
+										<h5>Валютний нагляд, призначення платежів та інші особливості безготівкових
+											розрахунків
+											ІТ
+											ФОП</h5>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-3.webp" type="image/webp"><img src="img/cases-img-3.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__holder">
+										<div class="articles-slide__text-holder">
+											<h5>Реєстрація ФОП без прописки: це можливо?</h5>
+										</div>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-1.webp" type="image/webp"><img src="img/cases-img-1.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__text-holder">
+										<h5>Як анулювати ліцензію на право роздрібної торгівлі алкогольними напоями та
+											тютюновими
+											виробами?</h5>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-2.webp" type="image/webp"><img src="img/cases-img-2.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__text-holder">
+										<h5>Валютний нагляд, призначення платежів та інші особливості безготівкових
+											розрахунків
+											ІТ
+											ФОП</h5>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-3.webp" type="image/webp"><img src="img/cases-img-3.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__holder">
+										<div class="articles-slide__text-holder">
+											<h5>Реєстрація ФОП без прописки: це можливо?</h5>
+										</div>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-1.webp" type="image/webp"><img src="img/cases-img-1.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__text-holder">
+										<h5>Як анулювати ліцензію на право роздрібної торгівлі алкогольними напоями та
+											тютюновими
+											виробами?</h5>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-2.webp" type="image/webp"><img src="img/cases-img-2.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__text-holder">
+										<h5>Валютний нагляд, призначення платежів та інші особливості безготівкових
+											розрахунків
+											ІТ
+											ФОП</h5>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide articles-slide card">
+								<div class="card__inner">
+									<div class="articles-slide__image-holder">
+										<picture><source srcset="img/cases-img-3.webp" type="image/webp"><img src="img/cases-img-3.jpg" width="328" height="200" alt="image"></picture>
+									</div>
+									<div class="badge badge--small">
+										<span>СТАТТЯ</span>
+									</div>
+									<div class="articles-slide__holder">
+										<div class="articles-slide__text-holder">
+											<h5>Реєстрація ФОП без прописки: це можливо?</h5>
+										</div>
+									</div>
+									<a class="links _icon-arrow-link" href="#">
+										Читати далі
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="articles__nav swiper-nav">
+						<div class="swiper-button-prev button-prev-articles">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M12.8313 15.9188C12.8774 15.9617 12.9143 16.0134 12.9399 16.0709C12.9656 16.1284 12.9793 16.1905 12.9804 16.2535C12.9816 16.3164 12.97 16.3789 12.9464 16.4373C12.9228 16.4956 12.8877 16.5487 12.8432 16.5932C12.7987 16.6377 12.7457 16.6728 12.6873 16.6964C12.629 16.7199 12.5664 16.7315 12.5035 16.7304C12.4406 16.7293 12.3785 16.7155 12.321 16.6899C12.2635 16.6643 12.2117 16.6273 12.1688 16.5813L5.91883 10.3313C5.83104 10.2434 5.78174 10.1242 5.78174 10C5.78174 9.87581 5.83104 9.75667 5.91883 9.66878L12.1688 3.41878C12.2577 3.33598 12.3752 3.2909 12.4967 3.29304C12.6181 3.29518 12.734 3.34438 12.8198 3.43026C12.9057 3.51615 12.9549 3.63201 12.9571 3.75345C12.9592 3.87489 12.9141 3.99242 12.8313 4.08128L6.91336 10L12.8313 15.9188Z"
+									fill="#39393A" />
+							</svg>
+						</div>
+						<div class="pagination-articles"></div>
+						<div class="swiper-button-next button-next-articles">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.0813 10.3314L7.83128 16.5814C7.74242 16.6642 7.62489 16.7093 7.50345 16.7071C7.38201 16.705 7.26615 16.6558 7.18026 16.5699C7.09438 16.484 7.04518 16.3682 7.04304 16.2467C7.0409 16.1253 7.08598 16.0078 7.16878 15.9189L13.0867 10.0001L7.16878 4.0814C7.08598 3.99254 7.0409 3.87501 7.04304 3.75357C7.04518 3.63213 7.09438 3.51627 7.18026 3.43038C7.26615 3.3445 7.38201 3.29531 7.50345 3.29316C7.62489 3.29102 7.74242 3.3361 7.83128 3.4189L14.0813 9.6689C14.1691 9.75679 14.2184 9.87593 14.2184 10.0001C14.2184 10.1244 14.1691 10.2435 14.0813 10.3314Z"
+									fill="#39393A" />
+							</svg>
+						</div>
+					</div>
+					<a class="btn-outline _icon-arrow-outline-btn" href="#">
+						ВіДКРИТИ ВСІ
+					</a>
+				</div>
+			</section>
+
+			<!-- Seo section -->
+			<section class="seo" id="section-seo">
+				<div class="seo__container container">
+					<h6>Тут потрібно розташовувати SEO текст для цієї сторінки</h6>
+					<div class="seo__text-holder">
+						<p>Lorem ipsum dolor sit amet consectetur. Ut felis morbi lorem scelerisque blandit. Quis pellentesque
+							sapien consequat risus sapien semper. Sapien porttitor et diam consequat porttitor. Tellus lacus
+							mattis adipiscing nunc vulputate aenean ut sed posuere. Lorem id ut tortor sed tristique lorem
+							tortor habitasse. Ultricies quis suspendisse imperdiet ut habitant sit velit et. Eu in egestas ut
+							porttitor molestie duis metus sed ut. Turpis vivamus imperdiet faucibus amet rhoncus viverra
+							blandit risus. Mauris gravida diam nisl eu at enim semper eu.
+						</p>
+						<p> Consequat purus diam pulvinar mattis etiam sed orci. Ornare et felis tristique id. Dolor risus
+							semper in nec amet proin. Amet at proin tincidunt blandit pulvinar sed proin. Id lorem pretium
+							augue sit aliquet ultrices fringilla amet egestas. Nunc libero phasellus commodo eu faucibus amet.
+							Et malesuada lectus ac erat curabitur amet pellentesque. Vel tempus tellus a cursus hac nisl
+							fringilla. Justo netus vitae dictum pharetra. Pellentesque sapien suspendisse vel enim imperdiet
+							bibendum augue. Viverra integer in urna consectetur. Dictum sit proin egestas at eget nunc.
+							Tristique et risus fringilla turpis.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer section -->
+<footer class="footer" id="section-footer">
+	<div class="bg-holder">
+		<picture>
+			<source media="(min-width:992px)" srcset="img/footer-bg.webp" type="image/webp">
+			<source media="(min-width:476px)" srcset="img/footer-bg-tablet.webp" type="image/webp">
+			<source media="(min-width:476px)" srcset="img/footer-bg-tablet.png" type="image/png">
+			<source srcset="img/footer-bg-mob.webp" type="image/webp">
+			<img src="img/footer-bg-mob.png" width="1920" height="445" alt="image">
+		</picture>
+	</div>
+	<div class="footer__container container">
+		<div class="footer__row">
+			<div class="footer__column footer__column--menu">
+				<h4>КЛІЄНТАМ</h4>
+				<ul class="menu">
+					<li class="menu-item">
+						<a class="menu-links" href="#">Послуги</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Про нас</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Кейси</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Новини та статті</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-links" href="#">Контакти</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h4>АДРЕСА</h4>
+				<ul>
+					<li><span>м. Київ</span></li>
+					<li>вул. Дегтярівська, будинок. 53а, офіс 419-420</li>
+					<li><a class="footer__google-maps" href="#">Дивитися на Google Maps</a></li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h4>ЗВ'ЯЗОК З НАМИ</h4>
+				<ul>
+					<li><a class="footer__phone" href="tel:+380504749294">+38 (050) 474-92-94</a></li>
+					<li><a class="footer__email" href="mailto:нужна_пошта@сюди.com">нужна_пошта@сюди.com</a></li>
+				</ul>
+				<a class="btn-full scroll-to" href="#section-cta">ЗАМОВИТИ КОНСУЛЬТАЦІЮ</a>
+			</div>
+		</div>
+		<div class="footer__row footer__row--copyright">
+			<div class="footer__column">
+				<div class="logo">
+					<a href="index.html">
+						<picture>
+							<source media="(min-width:1280px)" srcset="img/logo-white.svg" type="image/webp">
+							<img src="img/logo-white-mob.svg" width="157" height="37" alt="image">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<div class="footer__column footer__column--text">
+				<p>Kyiv, str. Degtyarivska, building. 53a, office 419-420 © 2023 ok-consulting.com.ua - Consulting services
+					for business. All rights reserved.</p>
+			</div>
+			<div class="footer__column">
+				<ul class="social">
+					<li>
+						<a class="btn-full _icon-instagram" href="#">
+						</a>
+					</li>
+					<li>
+						<a class="btn-full _icon-facebook" href="#">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<a class="label-agency" href="https://shapoval.agency/?utm_source=dev&utm_medium=site&utm_campaign=">
+		<img src="img/shapoval-agency.svg" width="109" height="53" alt="image">
+	</a>
+</footer>
+	</div>
+	<div class="modal-consultation">
+	<div class="modal-consultation__inner">
+		<h5>ЗАМОВЛЕННЯ КОНСУЛЬТАЦІЇ</h5>
+		<div id="note-1"></div>
+		<form class="form" id="ajax-contact-form" action="" data-form-validate="true">
+			<div class="form__inner">
+				<div class="form__name-label">Ваше ім'я</div>
+				<div class="form__input-holder form__input-holder--user">
+					<span>
+						<input type="text" value="" name="name-client" placeholder="Наприклад: Григорій Сковорода" required />
+					</span>
+				</div>
+				<div class="form__phone-label">Ваш телефон</div>
+				<div class="form__input-holder form__input-holder--phone">
+					<span>
+						<input type="tel" value="" name="phone-client" placeholder="+38 (ХХХ) ХХХ - ХХ - ХХ" required />
+					</span>
+				</div>
+				<input type="hidden" name="url">
+				<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+				<div class="form__button-holder">
+					<button class="btn-full" type="submit">
+						ЗАМОВИТИ
+					</button>
+				</div>
+			</div>
+		</form>
+		<div class="social">
+			<h5>ЗВ'ЯЗОК З НАМИ</h5>
+			<a class="phone" href="tel:+380504749294">+38 (050) 474-92-94</a>
+			<a class="email" href="mailto:нужна_пошта@сюди.com">нужна_пошта@сюди.com</a>
+		</div>
+		<div class="address">
+			<h5>АДРЕСА</h5>
+			<div class="address__content">
+				<span>м. Київ</span>
+				<p>вул. Дегтярівська, будинок. 53а, офіс 419-420</p>
+				<a class="links" href="#">Дивитися на Google Maps</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="overlay"></div>
+
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
